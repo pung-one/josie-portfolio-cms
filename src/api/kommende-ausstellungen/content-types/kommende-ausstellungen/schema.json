@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kommende_ausstellungens",
+  "info": {
+    "singularName": "kommende-ausstellungen",
+    "pluralName": "kommende-ausstellungens",
+    "displayName": "kommendeAusstellungen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Jahr": {
+      "type": "biginteger",
+      "required": true
+    },
+    "Ausstellung": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
