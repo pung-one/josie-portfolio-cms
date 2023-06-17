@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sounddesigns",
+  "info": {
+    "singularName": "sounddesign",
+    "pluralName": "sounddesigns",
+    "displayName": "Sounddesign"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Jahr": {
+      "type": "biginteger"
+    },
+    "Location": {
+      "type": "string"
+    }
+  }
+}

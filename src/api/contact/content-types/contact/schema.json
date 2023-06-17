@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "default": "Sophia Overton-Daiber"
+    },
+    "Strasse": {
+      "type": "string",
+      "required": true,
+      "default": "Mecklenburger Straße 10"
+    },
+    "plzUndOrt": {
+      "type": "string",
+      "required": true,
+      "default": "28203 Bremen"
+    },
+    "email": {
+      "type": "email",
+      "default": "josie_overton@posteo.de",
+      "required": true
+    },
+    "telefon": {
+      "type": "biginteger",
+      "required": true,
+      "default": "017641737326"
+    }
+  }
+}

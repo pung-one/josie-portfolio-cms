@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exhibitions",
+  "info": {
+    "singularName": "exhibition",
+    "pluralName": "exhibitions",
+    "displayName": "Ausstellungen"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Jahr": {
+      "type": "biginteger"
+    },
+    "Ausstellung": {
+      "type": "string"
+    }
+  }
+}

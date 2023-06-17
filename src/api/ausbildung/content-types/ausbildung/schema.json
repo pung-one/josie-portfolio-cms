@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ausbildungs",
+  "info": {
+    "singularName": "ausbildung",
+    "pluralName": "ausbildungs",
+    "displayName": "Ausbildung",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "von": {
+      "type": "biginteger"
+    },
+    "Ausbildung": {
+      "type": "string",
+      "required": true
+    },
+    "bis": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

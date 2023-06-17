@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_mes",
+  "info": {
+    "singularName": "about-me",
+    "pluralName": "about-mes",
+    "displayName": "About-Me",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Selbstbeschreibung": {
+      "type": "text",
+      "required": true,
+      "default": "Ich studiere seit 2018 an der HFBK Hamburg bildende Kunst und wohne in Bremen. Seit dem Beginn meines Studiums arbeite ich mit den unter- schiedlichsten Medien wobei mein aktueller Fokus auf der skulpturalen Arbeit und Rauminstallationen liegt. Inhaltlich setze ich mich in meinen Arbeiten mit gesellschaftlich und politischen Fragestellungen auseinander. Ernsthafte Themen, auf spiele- rische Weise mit märchenhaften Erzählungen, humor und phantastievollen Formen umgesetzt um der betrachtenden Person einen emotionalen Zugang zu vermitteln."
+    },
+    "Name": {
+      "type": "string",
+      "required": true,
+      "default": "Sophia Overton"
+    },
+    "Geburtsdatum": {
+      "type": "string",
+      "required": true,
+      "default": "06.07.1993"
+    },
+    "Geburtsort": {
+      "type": "string",
+      "required": true,
+      "default": "Nelson (Aotearoa/New Zealand)"
+    },
+    "aufgewachsen": {
+      "type": "string",
+      "default": "Freiburg im Breisgau",
+      "required": true
+    }
+  }
+}
