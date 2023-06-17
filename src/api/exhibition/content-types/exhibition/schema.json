@@ -4,18 +4,20 @@
   "info": {
     "singularName": "exhibition",
     "pluralName": "exhibitions",
-    "displayName": "Ausstellungen"
+    "displayName": "Ausstellungen",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Jahr": {
-      "type": "biginteger"
-    },
     "Ausstellung": {
       "type": "string"
+    },
+    "Jahr": {
+      "type": "string",
+      "required": true
     }
   }
 }
