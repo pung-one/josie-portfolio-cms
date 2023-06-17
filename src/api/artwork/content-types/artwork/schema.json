@@ -54,6 +54,9 @@
     "Beschreibung": {
       "type": "text",
       "required": true
+    },
+    "reihenfolge": {
+      "type": "biginteger"
     }
   }
 }

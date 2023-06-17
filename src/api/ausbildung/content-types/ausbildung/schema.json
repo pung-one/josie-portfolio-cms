@@ -23,6 +23,9 @@
     "von": {
       "type": "string",
       "required": true
+    },
+    "reihenfolge": {
+      "type": "biginteger"
     }
   }
 }
