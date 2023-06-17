@@ -12,14 +12,15 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "von": {
-      "type": "biginteger"
-    },
     "Ausbildung": {
       "type": "string",
       "required": true
     },
     "bis": {
+      "type": "string",
+      "required": true
+    },
+    "von": {
       "type": "string",
       "required": true
     }
