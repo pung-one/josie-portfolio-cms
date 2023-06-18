@@ -15,8 +15,15 @@
     "reihenfolge": {
       "type": "biginteger"
     },
+    "von": {
+      "type": "string"
+    },
+    "bis": {
+      "type": "string",
+      "required": true
+    },
     "Ausbildung": {
-      "type": "richtext",
+      "type": "string",
       "required": true
     }
   }
