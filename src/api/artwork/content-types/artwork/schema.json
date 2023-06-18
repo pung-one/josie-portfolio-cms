@@ -52,7 +52,7 @@
       "required": true
     },
     "Beschreibung": {
-      "type": "text",
+      "type": "richtext",
       "required": true
     }
   }
