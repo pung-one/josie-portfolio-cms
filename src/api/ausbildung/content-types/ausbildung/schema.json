@@ -12,20 +12,12 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Ausbildung": {
-      "type": "string",
-      "required": true
-    },
-    "bis": {
-      "type": "string",
-      "required": true
-    },
-    "von": {
-      "type": "string",
-      "required": true
-    },
     "reihenfolge": {
       "type": "biginteger"
+    },
+    "Ausbildung": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
