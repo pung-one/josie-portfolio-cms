@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "Begleittext": {
-      "type": "text",
-      "required": true
-    },
     "Jahr": {
       "type": "biginteger",
       "required": true
@@ -57,6 +53,10 @@
     },
     "reihenfolge": {
       "type": "biginteger"
+    },
+    "Begleittext": {
+      "type": "richtext",
+      "required": true
     }
   }
 }
