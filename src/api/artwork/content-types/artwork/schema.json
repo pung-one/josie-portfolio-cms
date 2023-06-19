@@ -20,7 +20,7 @@
       "type": "biginteger",
       "required": true
     },
-    "Media": {
+    "Bilder": {
       "type": "media",
       "multiple": true,
       "required": false,
