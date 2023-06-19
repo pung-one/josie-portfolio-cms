@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "reihenfolge": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true
     },
     "von": {
       "type": "string"

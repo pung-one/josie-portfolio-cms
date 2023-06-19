@@ -20,7 +20,8 @@
       "required": true
     },
     "reihenfolge": {
-      "type": "biginteger"
+      "type": "biginteger",
+      "required": true
     }
   }
 }
