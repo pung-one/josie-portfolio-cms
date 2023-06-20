@@ -55,26 +55,12 @@
       "type": "biginteger",
       "required": true
     },
-    "Begleittext": {
+    "BegleittextDeu": {
       "type": "richtext",
       "required": true
     },
-    "includesImages": {
-      "type": "boolean",
-      "default": true,
-      "required": true
-    },
-    "includesAudio": {
-      "type": "boolean",
-      "default": false,
-      "required": true
-    },
-    "includesVideoLink": {
-      "type": "boolean",
-      "default": false
-    },
-    "videoLink": {
-      "type": "string"
+    "BegleittextEng": {
+      "type": "richtext"
     }
   }
 }

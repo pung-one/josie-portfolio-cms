@@ -21,6 +21,14 @@
       "type": "richtext",
       "default": "Sophia Overton (Josie), 06.07.1993 Geboren in Nelson (Aotearoa/New Zealand) Aufgewachsen in Freiburg im Breisgau",
       "required": true
+    },
+    "portfolioPDF": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "files"
+      ]
     }
   }
 }
