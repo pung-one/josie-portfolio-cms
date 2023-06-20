@@ -16,10 +16,6 @@
       "type": "string",
       "required": true
     },
-    "Jahr": {
-      "type": "biginteger",
-      "required": true
-    },
     "Bilder": {
       "type": "media",
       "multiple": true,
